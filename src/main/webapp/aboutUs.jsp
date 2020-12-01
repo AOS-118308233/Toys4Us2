@@ -1,3 +1,10 @@
+<%-- 
+    Document   : aboutUs
+    Created on : 1 Dec 2020, 17:12:23
+    Author     : aoife
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +31,7 @@
 
 <body>
     
-        <!-- Nav Bar -->
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
           <a class="navbar-brand" href="index.html">
@@ -64,37 +71,22 @@
         </div>
       </div>
     </nav>
-
     
     <br/>
     <br/>
     <br/>
-    <br/>
-        <!-- When a user clicks on any of the links from the footer they will just be brought to this page -->
-        <header><b> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</b></header>
-        <p><b>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</b>
-        
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae euismod mauris, ac interdum odio. Sed purus turpis, tincidunt in mollis ut, dignissim sed urna. Mauris ac magna in dui dictum ultrices. 
-            Nulla sagittis euismod augue eu venenatis. Donec a purus a libero volutpat pharetra sit amet nec massa. Nam pellentesque placerat tellus sit amet consectetur. Quisque sit amet nulla at ex faucibus porta at a quam. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-        <p> Pellentesque at velit justo. Etiam eu sem vel lectus eleifend feugiat a ac libero. Maecenas arcu diam, ornare quis sem eu, molestie malesuada erat. Sed sed urna mollis, gravida eros vitae, placerat sem. 
-            Pellentesque vel felis egestas, convallis neque vitae, faucibus lacus. Vivamus pellentesque tempor porttitor. Ut rutrum eleifend rutrum. Cras lorem quam, malesuada sit amet sollicitudin eget, sagittis eget lacus. 
-            Aliquam mi ante, aliquet eget magna ut, laoreet rutrum leo. Vivamus vestibulum ultricies mauris, at faucibus ipsum viverra eu. Sed nec venenatis risus. Aenean vehicula justo in lorem luctus vehicula. 
-            Vivamus nulla lacus, volutpat vel lacinia vel, vestibulum eu nibh. Integer consequat consectetur elit pellentesque aliquam. Vestibulum ac tempus magna. </p>
-
-        <p> Ut sagittis quis massa vitae semper. Vestibulum facilisis sem vel elit vulputate iaculis. Morbi at sem vitae mi eleifend tristique. Sed ornare congue lacus, non auctor erat aliquam eu. 
-            Fusce vitae orci pulvinar, mattis elit vel, aliquam nunc. Nam fringilla lobortis tellus vitae tempor. Aliquam nisi magna, ultrices eget blandit congue, interdum nec dui. Nullam eu felis vitae nunc hendrerit feugiat.</p>
-
-        <p> Suspendisse tempor efficitur pretium. Aliquam a maximus ante. Pellentesque vestibulum neque lectus, non rutrum augue accumsan et. Integer sit amet lobortis ex. Phasellus vulputate gravida lorem, non fringilla turpis luctus sed. 
-            Suspendisse facilisis maximus quam, ac viverra elit tristique sed. Curabitur interdum sodales ante, id molestie orci dignissim non. Integer imperdiet lacus diam, a volutpat est interdum et. Etiam porta consequat enim, 
-            a convallis lectus blandit sit amet. Proin eu velit velit.</p>
-
-        <p> Aenean pulvinar dui nec purus vulputate, at tempus urna ultrices. Nullam ac neque ullamcorper erat scelerisque pharetra. Vestibulum auctor finibus rhoncus. Mauris lectus nulla, hendrerit ut egestas eget, placerat eu magna. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas lorem at accumsan imperdiet. Maecenas hendrerit sit amet lectus in porta. In rhoncus ligula in sodales pretium. Maecenas et tristique augue, vitae lacinia elit. 
-            Quisque mollis ut quam ut porta. Duis vestibulum, justo eget tempor sodales, elit elit varius nulla, eu auctor erat nisl ut nulla. Maecenas volutpat rhoncus mauris et consequat. Aliquam eu augue sed erat blandit porttitor. </p>
-        
-        
+    
+    <div class="aboutUs">
+    <h3> About Toys4Us</h3>
+        <img src="resources/images/newLogo.png" alt="logo" height="200" width="200">
+        <p class="aboutUs"> Toys4Us was the brain child of Aoife, a Third Year Business Information Student, who set up Toys4Us as a spoof of ToysRUs
+                because she simply wasn't bothered to come up with some smart name because it wasn't part of the brief. Some of the products featured
+                are owned by Aoife herself (the Williams F1 bear affectionately known as George) or people she knows (her sister owns Baby Yoda) 
+                or else they are similar to ones she currently owns (The green dinosaur and Sid the sloth). Aoife is not affiliated with ToysRUs in any
+                way and all pictures were found through Google Images. If you have any issues with the websites then don't bother contacting Aoife, 
+                she has way too many assignments and projects to be doing, you the "customer" are not her priority. </p>
+        <p class="aboutUs"> Thank you for your co-operation, we appreciate it. (Probably? Maybe? Who knows?) </p>
+    </div>
     <!-- Footer -->
     <footer class="py-5 bg-dark" id="footer">
       <div class="container">
@@ -115,7 +107,6 @@
       </div>
       <!-- /.container -->
     </footer>
-
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

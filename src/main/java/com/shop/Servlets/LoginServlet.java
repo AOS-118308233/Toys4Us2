@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         
-        if(StringUtils.isStringEmpty(email) || StringUtils.isStringEmpty(password)) {
+        if(StringUtils.isStringEmpty(password) || StringUtils.isStringEmpty(email)) {
             
             RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
             rd.forward(request, response);
@@ -47,7 +47,7 @@ public class LoginServlet extends HttpServlet {
                 request.getSession(true).setAttribute(IConstants.SESSION_KEY_USER,user);
                 
                 //if the user type is Admin then they will be sent to the admin home page 
-                if(user.getUserTye().equals(IConstants.USER_TYPE_ADMIN)) {
+                if(user.getUserType().equals(IConstants.USER_TYPE_ADMIN)) {
                     RequestDispatcher rd = request.getRequestDispatcher("/adminHome.jsp");
                     rd.forward(request, response);
                 } 

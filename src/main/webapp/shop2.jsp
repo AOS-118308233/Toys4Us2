@@ -25,18 +25,20 @@
     
     
     <body>
-        <body>
-
-    <!-- Navigation -->
+        
+        <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
           <a class="navbar-brand" href="index.html">
               <img src="resources/images/newLogo.png" alt="logo" style="display:inline-block;" height="60" width="90">
-              <span style="display: inline-block;"> Toys4Us </span>
+              <span style="display: inline-block;">Toys4Us</span>
           </a>
+          
+          
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+          
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
@@ -46,10 +48,16 @@
               <a class="nav-link" href="shop.jsp">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.jsp">Contact Us</a>
+              <a class="nav-link" href="aboutUs.jsp">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.jsp">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.jsp">Log In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.jsp"><i class="fas fa-user-plus"></i></a>
             </li>
              <li class="nav-item">
                  <a class="nav-link" href="cart.jsp"><i class="fas fa-shopping-basket"></i></a>
@@ -58,6 +66,7 @@
         </div>
       </div>
     </nav>
+
 
     <!-- Page Content -->
     <div class="container">

@@ -32,6 +32,7 @@
 <body>
     
     <!-- Nav Bar -->
+       <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
           <a class="navbar-brand" href="index.html">
@@ -53,10 +54,16 @@
               <a class="nav-link" href="shop.jsp">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.jsp">Contact Us</a>
+              <a class="nav-link" href="aboutUs.jsp">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.jsp">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.jsp">Log In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.jsp"><i class="fas fa-user-plus"></i></a>
             </li>
              <li class="nav-item">
                  <a class="nav-link" href="cart.jsp"><i class="fas fa-shopping-basket"></i></a>
@@ -65,7 +72,7 @@
         </div>
       </div>
     </nav>
-    
+
     <br/>
     <br/>
     <br/>

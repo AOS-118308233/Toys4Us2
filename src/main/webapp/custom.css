@@ -150,4 +150,22 @@ img {
     background-color: #E2B4A7;
 }
 
+/* Footer will stay in the same place at all times instead of adjusting depending on the length of the page 
+   Code taken from https://stackoverflow.com/questions/58984110/how-to-separate-header-body-and-footer */
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-flow: column;
+}
+footer {
+    margin-top: auto;
+}
+
+.aboutUs {
+    text-align: center;
+}
+
 

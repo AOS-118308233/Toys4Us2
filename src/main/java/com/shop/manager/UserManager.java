@@ -22,7 +22,7 @@ public class UserManager {
     public User loginUser(String email, String password){
         
         UserDAO userDAO = new UserDAO();
-        User user = userDAO.getUserByEmail(email);
+        User user = userDAO.GetUserByEmail(email);
         if (user.getPassword().equals(password)){
             return user;
         }
