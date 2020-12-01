@@ -12,21 +12,21 @@ import com.shop.utils.IConstants;
  *
  * @author aoife
  */
-public class UserDAO {
+public class AdminDAO {
     
     public User GetUserByEmail(String email) {
         
-        User user1 = new User();
+        User admin1 = new User();
         
-        user1.setId(1);
-        user1.setEmail("admin@admin.com");
-        user1.setPassword("Admin");
-        user1.setFirstName("Aoife");
-        user1.setLastName("O'Sullivan");
-        user1.setUserType(IConstants.USER_TYPE_ADMIN);
+        admin1.setId(1);
+        admin1.setEmail("admin@admin.com");
+        admin1.setPassword("Admin");
+        admin1.setFirstName("Aoife");
+        admin1.setLastName("O'Sullivan");
+        admin1.setUserType(IConstants.USER_TYPE_ADMIN);
         
-        return user1;
-        
+        return admin1;
+
         
         
     }

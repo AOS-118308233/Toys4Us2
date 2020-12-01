@@ -8,10 +8,9 @@ package com.shop.Servlets;
 import com.shop.model.User;
 import com.shop.utils.IConstants;
 import com.shop.manager.UserManager;
+import com.shop.utils.StringUtils;
 
 
-
-import com.sun.tools.javac.util.StringUtils;
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -31,7 +30,7 @@ public class LoginServlet extends HttpServlet {
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         
-        if(StringUtils.isStringEmpty(password) || StringUtils.isStringEmpty(email)) {
+        if (StringUtils.isStringEmpty(email) || StringUtils.isStringEmpty(password)) {
             
             RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
             rd.forward(request, response);

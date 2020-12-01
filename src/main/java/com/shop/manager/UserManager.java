@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package com.shop.manager;
-import com.shop.DAO.UserDAO;
+import com.shop.DAO.AdminDAO;
 import com.shop.model.User;
 
 /**
@@ -21,7 +21,7 @@ public class UserManager {
      */
     public User loginUser(String email, String password){
         
-        UserDAO userDAO = new UserDAO();
+        AdminDAO userDAO = new AdminDAO();
         User user = userDAO.GetUserByEmail(email);
         if (user.getPassword().equals(password)){
             return user;
