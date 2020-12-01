@@ -5,8 +5,9 @@
  */
 package com.shop.Servlets;
 
-import com.shop.Users;
-import com.shop.utils;
+import com.shop.model.User;
+import com.shop.utils.IConstants;
+import com.shop.manager.UserManager;
 
 
 
@@ -52,12 +53,12 @@ public class LoginServlet extends HttpServlet {
                 } 
                 //if the user isn't a user that has signed up they will be added to the "database" and will be returned to index.html
                 else if (user.getUserType().equals(IConstants.USER_TYPE_GENERAL_USER)) {
-                    RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
+                    RequestDispatcher rd = request.getRequestDispatcher("/index.html");
                     rd.forward(request, response);
                 }
                 //If the user is a registered user they will also be sent to the index.html page
                 else {
-                    RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
+                    RequestDispatcher rd = request.getRequestDispatcher("/index.html");
                     rd.forward(request, response);
                 }
             }

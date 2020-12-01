@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import com.shop.utils;
+package com.shop.utils;
 
 /**
  *

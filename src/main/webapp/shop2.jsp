@@ -78,7 +78,10 @@
               </h5>
               <p class="card-text">This is the closest thing you're going to get to having a dog like Miggeldy Higgins without actually owning a dog</p>
               <p class="price"><strong>€21.95</strong></p>
-              <button class ="btnBuy"> Add To Cart </button>
+              <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="Ber109">
+                <input type="submit" value="Add To Cart" class="btnBuy">
+            </form>
             </div>
           </div>
         </div> 
@@ -94,7 +97,10 @@
               </h5>
               <p class="card-text"> Remember when Ferrari used to be really good and won 5 world championships in a row? :(</p>
               <p class="price"><strong>€24.95</strong></p>
-              <button class ="btnBuy"> Add To Cart </button>
+              <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="Fer765">
+                <input type="submit" value="Add To Cart" class="btnBuy">
+            </form>
             </div>
           </div>
         </div> 
@@ -110,7 +116,10 @@
               </h5>
               <p class="card-text">Ah yes, one of the greatest bears of all time, Paddington. Marmite is currently unavailable at Toys4Us.</p>
               <p class="price"><strong>€19.95</strong></p>
-              <button class ="btnBuy"> Add To Cart </button>
+              <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="Pad890">
+                <input type="submit" value="Add To Cart" class="btnBuy">
+            </form>
             </div>
           </div>
         </div> 
@@ -127,7 +136,10 @@
               </h5>
               <p class="card-text">You simply cannot go wrong with this traditional teddy bear, unless you don't like traditional teddy bears. </p>
               <p class="price"><strong>€10.95</strong></p>
-              <button class ="btnBuy"> Add To Cart </button>
+              <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="Ted432">
+                <input type="submit" value="Add To Cart" class="btnBuy">
+            </form>
             </div>
           </div>
         </div> 
@@ -144,7 +156,10 @@
               </h5>
               <p class="card-text">You're honestly telling me you don't like this one either??? Why are you even on this site then?</p>
               <p class="price"><strong>€10.95</strong></p>
-              <button class ="btnBuy"> Add To Cart </button>
+              <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="Pin213">
+                <input type="submit" value="Add To Cart" class="btnBuy">
+            </form>
             </div>
           </div>
         </div> 
@@ -160,7 +175,10 @@
               </h5>
               <p class="card-text">Winnie the Pooh. That's it. Everyone loves Pooh. No matter what age you, you'll always love Pooh</p>
               <p class="price"><strong>€18.95</strong></p>
-              <button class ="btnBuy"> Add To Cart </button>
+              <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="Poh789">
+                <input type="submit" value="Add To Cart" class="btnBuy">
+            </form>
             </div>
           </div>
         </div> 
@@ -176,8 +194,11 @@
                 <p>Sooty</p>
               </h5>
               <p class="card-text">If your child can tell us who this is then drop us an email, they can have it for free. Not like anyone watches it.</p>
-              <p class="price"><strong>€6.95 </strong></p>
-              <button class ="btnBuy"> Add To Cart </button>
+              <p class="price"><strong>€7.95</strong></p>
+              <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="Soo779">
+                <input type="submit" value="Add To Cart" class="btnBuy">
+            </form>
             </div>
           </div>
         </div> 
@@ -194,7 +215,11 @@
               </h5>
               <p class="card-text">This is Sid. He's a sloth. Sid doesn't do much. Sounds like the most of us during the second lockdown. </p>
               <p class="price"><strong>€11.95</strong></p>
-              <button class ="btnBuy"> Add To Cart </button>
+              <p class="price"><strong>€18.95</strong></p>
+              <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="Slo790">
+                <input type="submit" value="Add To Cart" class="btnBuy">
+            </form>
             </div>
           </div>
         </div> 

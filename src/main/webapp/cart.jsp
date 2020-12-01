@@ -65,7 +65,28 @@
         </div>
       </div>
     </nav>
+    
+    <br/>
+    <br/>
+    <br/>
 
+    <table>
+        <h3>Your Cart: </h3>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        
+    
+            
+          
+            
+            
+    </table>
+    
+    
 </body>
 
 </html>

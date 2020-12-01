@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.shop;
+package com.shop.model;
 
 /**
  *
  * @author aoife
  */
-public class utils {
-
-    
+public class Product {
     
 }
