@@ -15,8 +15,6 @@ public class customerDetails {
     String custName; 
     int phoneNum;
     String address;
-    String town;
-    String county;
     String postcode; 
 
     /**
@@ -68,33 +66,6 @@ public class customerDetails {
         this.address = address;
     }
 
-    /**
-     * @return the town
-     */
-    public String getTown() {
-        return town;
-    }
-
-    /**
-     * @param town the town to set
-     */
-    public void setTown(String town) {
-        this.town = town;
-    }
-
-    /**
-     * @return the county
-     */
-    public String getCounty() {
-        return county;
-    }
-
-    /**
-     * @param county the county to set
-     */
-    public void setCounty(String county) {
-        this.county = county;
-    }
 
     /**
      * @return the postcode

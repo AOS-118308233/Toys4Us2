@@ -15,6 +15,7 @@ public class Cart {
     String productName;
     int quantity;
     float price;
+    float subTotal;
     float totalPrice;
 
     /**
@@ -73,6 +74,20 @@ public class Cart {
         this.price = price;
     }
 
+     /**
+     * @return the subTotal
+     */
+    public float getSubTotal() {
+        return subTotal;
+    }
+
+    /**
+     * @param subTotal the subTotal to set
+     */
+    public void setSubTotal(float subTotal) {
+        this.subTotal = subTotal;
+    }
+
     /**
      * @return the totalPrice
      */
@@ -87,3 +102,5 @@ public class Cart {
         this.totalPrice = totalPrice;
     }
 }
+
+   

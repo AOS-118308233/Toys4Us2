@@ -15,6 +15,7 @@ public class Product {
     String productName;
     String productDescription;
     String brandName;
+    float price;
     float weight;
     String colour;
     String animalType;
@@ -81,6 +82,20 @@ public class Product {
     }
 
     /**
+     * @return the price
+     */
+    public float getPrice() {
+        return price;
+    }
+
+    /**
+     * @param price the price to set
+     */
+    public void setPrice(float price) {
+        this.price = price;
+    }
+    
+    /**
      * @return the weight
      */
     public float getWeight() {
@@ -121,6 +136,8 @@ public class Product {
     public void setAnimalType(String animalType) {
         this.animalType = animalType;
     }
+
+    
 
    
 }
